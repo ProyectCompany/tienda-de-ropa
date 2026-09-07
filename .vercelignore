@@ -1,0 +1,5 @@
+# Ignore local development server on Vercel
+local-server.js
+server.js
+.git
+.gitignore
