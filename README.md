@@ -29,7 +29,7 @@ No requiere dependencias externas pesadas.
 
 2. Ingresa a la carpeta del proyecto y ejecuta el servidor local con Node.js:
    ```bash
-   node local-server.js
+   node scripts/local-server.js
    ```
 
 3. Abre en tu navegador:
@@ -44,11 +44,13 @@ No requiere dependencias externas pesadas.
 ```
 tienda-de-ropa/
 ├── assets/
-│   └── images/          # Fotografías y recursos gráficos
+│   ├── images/          # Fotografías y recursos gráficos de la tienda
+│   └── js/
+│       └── main.js      # Lógica del carrito, WhatsApp, filtros y buscador
+├── scripts/
+│   └── local-server.js  # Servidor de desarrollo local en Node.js
 ├── index.html           # Estructura semántica de la tienda
 ├── styles.css           # Sistema de diseño, tokens CSS y responsive queries
-├── app.js               # Lógica del carrito, WhatsApp, filtros y buscador
-├── local-server.js      # Servidor de desarrollo local en Node.js
 ├── vercel.json          # Configuración para despliegue estático en Vercel
 └── README.md
 ```

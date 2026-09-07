@@ -1,4 +1,5 @@
-# Ignore local development server on Vercel
+# Ignore local scripts and dev files on Vercel
+scripts/
 local-server.js
 server.js
 .git
