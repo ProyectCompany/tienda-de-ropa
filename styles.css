@@ -51,7 +51,6 @@ html {
   scroll-behavior: smooth;
   font-size: 16px;
   -webkit-text-size-adjust: 100%;
-  text-size-adjust: 100%;
   width: 100%;
   overflow-x: hidden;
 }
@@ -1235,7 +1234,6 @@ button {
   display: flex;
   flex-direction: column;
   transition: transform var(--transition-normal);
-  -webkit-overflow-scrolling: touch;
 }
 
 .cart-drawer.active {
@@ -1603,7 +1601,6 @@ button {
     padding: 85px 24px 30px 24px;
     z-index: 99;
     overflow-y: auto;
-    -webkit-overflow-scrolling: touch;
     transition: transform 0.35s cubic-bezier(0.25, 0.46, 0.45, 0.94);
   }
   
